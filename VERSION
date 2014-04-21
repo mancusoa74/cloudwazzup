@@ -1,0 +1,13 @@
+0.1:  15/3/14
+initial commit and basic functionalities
+
+0.2: 29/4/14
+add whatsapp registration
+
+0.2.1: 30/4/14
+bug fix for cwuser UPDATE
+
+0.2.2: 30/4/14
+add API versioning
+
+
