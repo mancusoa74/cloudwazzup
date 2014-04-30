@@ -107,10 +107,41 @@ returns:
 }
 ```
 
+<br>
+####/requestcode [GET]
+```
+Request a Whatsapp SMS code
+---------------------------
+
+example:
+
+curl  -u monk74:1234 https://cloudwazzup-osft.rhcloud.com/requestcode/891e51de206c4597be2e16f6869c32dc
+
+returns:
+
+{
+  "result": "status: ok\nkind: free\npw: aN7owet4z5WMSTFK+mOFi+Pq4tU=\nprice: \u20ac 0,89\nprice_expiration: 1401905090\ncurrency: EUR\ncost: 0.89\nlogin: 393316835779\ntype: existing\nexpiration: 1427206874"
+}
+
+Please note that this will instruct Whatsapp server to send a SMS message to the registered phone number which is useful for trhe registration.
+This call also return the Whatsapp password (aN7owet4z5WMSTFK+mOFi+Pq4tU=) which should be part of the cwuser object (update)
+```
+
+<br>
+####/registercode [POST]
+```
+Register the Whatsapp user (phone numner) by providing the SMS code
+-------------------------------------------------------------------
+
+example:
+
+curl  -u monk74:1234 -H "Content-type: application/json" -X POST  -d '{"u_uid": "891e51de206c4597be2e16f6869c32dc", "sms_code": "857-401"}' https://cloudwazzup-osft.rhcloud.com/registercode
+
+returns:
 
 
 
-
+```
 
 ---
 License
