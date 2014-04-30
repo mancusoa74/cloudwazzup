@@ -10,12 +10,11 @@ This service is hosted on the great RedHat openshift [https://www.openshift.com]
 This service is available here: **https://cloudwazzup-osft.rhcloud.com**
 
 <br>
-*
-This Web Service is not ment to be used/abused for any spamming/advertising etc. 
+
+*This Web Service is not ment to be used/abused for any spamming/advertising etc. 
 For this reason limitation on max number of messages per day is implemented
 You should behave exactly as you do on your mobile WhatsApp application. 
-Be reponsible for what you send :)
-*
+Be reponsible for what you send :)*
 
 ##APIs
 <br>
