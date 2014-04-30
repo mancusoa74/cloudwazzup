@@ -145,6 +145,24 @@ returns:
 This call also return the Whatsapp password (regaSp2cwDmw0z1rruB9iW5T+fM=) which should be part of the cwuser object (update)
 ```
 
+<br>
+####/cwmex [POST]
+```
+Send a Whatsapp message to a given number
+-----------------------------------------
+
+example:
+
+curl  -u monk74:1234 -H "Content-type: application/json"   -X POST  -d '{"u_uid": "891e51de206c4597be2e16f6869c32dc", "dst_phone": "390123456789","body_mex": "this is a test message"}' https://cloudwazzup-osft.rhcloud.com/cwmex
+
+returns:
+
+{
+  "mex_status": "sent",
+  "remaining_mex_for_today": 97
+}
+```
+
 ---
 License
 ----
