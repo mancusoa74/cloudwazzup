@@ -17,8 +17,6 @@ You should behave exactly as you do on your mobile WhatsApp application.
 Be reponsible for what you send :)
 *
 
----
-
 ##APIs
 <br>
 These are the provided APIs:
