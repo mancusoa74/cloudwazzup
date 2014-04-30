@@ -1,6 +1,5 @@
 cloudwazzup 0.2
 ===============
----
 
 This is a simple REST web service providing API to send whatsapp messages
 
