@@ -142,7 +142,7 @@ returns:
   "result": "status: ok\nkind: free\npw: regaSp2cwDmw0z1rruB9iW5T+fM=\nprice: \u20ac 0,89\nprice_expiration: 1401892268\ncurrency: EUR\ncost: 0.89\nexpiration: 1427206874\nlogin: 393316835779\ntype: existing"
 }
 
-This call also return the Whatsapp password (aN7owet4z5WMSTFK+mOFi+Pq4tU=) which should be part of the cwuser object (update)
+This call also return the Whatsapp password (regaSp2cwDmw0z1rruB9iW5T+fM=) which should be part of the cwuser object (update)
 ```
 
 ---
