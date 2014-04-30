@@ -32,6 +32,7 @@ curl -u monk74:1234 https://cloudwazzup-osft.rhcloud.com/cwuser/891e51de206c4597
 returns:
 
 {
+  "api_version": "0.2.2",
   "u_created_at": "Wed, 30 Apr 2014 08:11:10 GMT",
   "u_email": "mancusoa74@gmail.com",
   "u_name": "monk74",
@@ -63,6 +64,48 @@ returns:
 }
 ```
 
+<br>
+####/cwuser/u_uid [PUT]
+```
+Update a cloud wazzup user
+---------------------------
+
+example:
+
+curl -u monk74:1234 -H "Content-type: application/json" -X PUT -d '{"u_passwd": "12345","u_email": "user_name@domain.com","wu_cc": "39","wu_phone_number": "0987654321","wu_passwd": "khfkwhfioweffhenckjwsdcihj="}'  https://cloudwazzup-osft.rhcloud.com/cwuser/891e51de206c4597be2e16f6869c32dc
+
+returns:
+
+{
+  "api_version": "0.2.2",
+  "u_created_at": "Wed, 30 Apr 2014 08:11:10 GMT",
+  "u_email": "user_name@domain.com",
+  "u_name": "monk74",
+  "u_uid": "891e51de206c4597be2e16f6869c32dc",
+  "wu_avail_mex_day": 100,
+  "wu_cc": "39",
+  "wu_max_mex_day": 100,
+  "wu_passwd": "khfkwhfioweffhenckjwsdcihj=",
+  "wu_phone_number": "0987654321"
+}
+```
+
+<br>
+####/cwuser/u_uid [DELETE]
+```
+Delete a cloud wazzup user
+---------------------------
+
+example:
+
+curl -u monk74:12344 -X DELETE https://cloudwazzup-osft.rhcloud.com/cwuser/891e51de206c4597be2e16f6869c32dc
+
+returns:
+
+{
+  "891e51de206c4597be2e16f6869c32dc": "deleted"
+}
+```
 
 
 
