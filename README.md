@@ -124,7 +124,6 @@ returns:
 }
 
 Please note that this will instruct Whatsapp server to send a SMS message to the registered phone number which is useful for trhe registration.
-This call also return the Whatsapp password (aN7owet4z5WMSTFK+mOFi+Pq4tU=) which should be part of the cwuser object (update)
 ```
 
 <br>
@@ -139,8 +138,11 @@ curl  -u monk74:1234 -H "Content-type: application/json" -X POST  -d '{"u_uid": 
 
 returns:
 
+{
+  "result": "status: ok\nkind: free\npw: regaSp2cwDmw0z1rruB9iW5T+fM=\nprice: \u20ac 0,89\nprice_expiration: 1401892268\ncurrency: EUR\ncost: 0.89\nexpiration: 1427206874\nlogin: 393316835779\ntype: existing"
+}
 
-
+This call also return the Whatsapp password (aN7owet4z5WMSTFK+mOFi+Pq4tU=) which should be part of the cwuser object (update)
 ```
 
 ---
