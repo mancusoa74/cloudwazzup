@@ -62,6 +62,8 @@ returns:
   "username": "monk74",
   "uuid": "891e51de206c4597be2e16f6869c32dc"
 }
+
+Please note that wu_passwd can be empty if you first need to register a phone to Whatsapp service.
 ```
 
 <br>
@@ -139,10 +141,10 @@ curl  -u monk74:1234 -H "Content-type: application/json" -X POST  -d '{"u_uid": 
 returns:
 
 {
-  "result": "status: ok\nkind: free\npw: regaSp2cwDmw0z1rruB9iW5T+fM=\nprice: \u20ac 0,89\nprice_expiration: 1401892268\ncurrency: EUR\ncost: 0.89\nexpiration: 1427206874\nlogin: 393316835779\ntype: existing"
+  "result": "status: ok\nkind: free\npw: u6kgSp2cwDmw0z1kewB9iG1C+fM=\nprice: \u20ac 0,89\nprice_expiration: 1401892268\ncurrency: EUR\ncost: 0.89\nexpiration: 1427206874\nlogin: 390123456789\ntype: existing"
 }
 
-This call also return the Whatsapp password (regaSp2cwDmw0z1rruB9iW5T+fM=) which should be part of the cwuser object (update)
+This call also return the Whatsapp password (u6kgSp2cwDmw0z1kewB9iG1C+fM=) which should be part of the cwuser object (update)
 ```
 
 <br>
@@ -153,7 +155,7 @@ Send a Whatsapp message to a given number
 
 example:
 
-curl  -u monk74:1234 -H "Content-type: application/json"   -X POST  -d '{"u_uid": "891e51de206c4597be2e16f6869c32dc", "dst_phone": "390123456789","body_mex": "this is a test message"}' https://cloudwazzup-osft.rhcloud.com/cwmex
+curl  -u monk74:1234 -H "Content-type: application/json"   -X POST  -d '{"u_uid": "891e51de206c4597be2e16f6869c32dc", "dst_phone": "3901234987654","body_mex": "this is a test message"}' https://cloudwazzup-osft.rhcloud.com/cwmex
 
 returns:
 
