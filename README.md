@@ -126,6 +126,8 @@ returns:
 }
 
 Please note that this will instruct Whatsapp server to send a SMS message to the registered phone number which is useful for trhe registration.
+
+Please note that if the phone number is already registered you will not get a SMS code. The password in the result of this call is the new generated password by Whatsapp. Update you user object with this passowrd and you can then send messages
 ```
 
 <br>
