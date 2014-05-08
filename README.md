@@ -9,6 +9,8 @@ This service is hosted on the great RedHat openshift [https://www.openshift.com]
 
 This service is available here: **https://cloudwazzup-osft.rhcloud.com**
 
+Also available here: **http://mancusoa74.blogspot.com/** (In Italian, if there is interest I can translate to English as well)
+
 <br>
 
 *This Web Service is not ment to be used/abused for any spamming/advertising etc. 
